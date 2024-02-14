@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(57, 162, 232);
+}
+
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid hsl(67, 111, 244);
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    margin: 5px ;
+    background-color: rgb(57, 162, 232) ;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    display: center;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18;
+    border-bottom: 1px white;
+}
+
+h1 {  
+    font-size:60px;
+    color: rgb(254, 254, 254);
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    margin:15px;
+ }
+
+
+.container{
+    width: 400 px;
+    padding: 10px;
+    margin: 300px;
+    display: grid; 
+    height:400px;
+    grid-template-columns: 1fr 1fr 1fr ;  
+    justify-content: center ;
+    }
+
+h2 { 
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    }
+
+.textbox{
+    margin: 9px;
+    padding: 10px;
+    Height: 400px;
+    width: 400px;
+    margin-left: 300px;
+}
+
+.textbox1{
+    /* margin: 10px; */
+    margin-left: 30px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gainsboro;
+    Height: 400px;
+    width: 400px;  
+}
+
+.para-1{
+    height: 20px;
+    width: 250px;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+color: #ccc;
+}
+
+.para-2 {
+    height: 0.5px;
+    width: 250px;
+     margin: 10px;
+     padding: 10px;
+    text-align: center;
+}
+
+.vertical{
+    width: 12px;
+    height: 25%;
+    background-color: white;
+    float: left;
+    margin-left: 270px;
+    /* margin-right: 10px; */
+    margin-top: 15px;
+    position: absolute;
+    border-radius: 6px;
+    /* there was no position */
+    /* border-right: 10px solid rgb(255, 255, 255);
+    height: 218px;
+    position: right;
+    right: 50%;
+    margin-top: 22px;
+    border-radius: 6px; */
+}
+
+    ::placeholder { 
+        padding: 10px;
+        margin: 10px;
+        
+        color: rgb(208, 208, 208);
+        opacity: 1;
+      }
+
+
+input {
+    background-color: white;
+    border: 1px solid white;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    padding-right: 120px;
+    margin-bottom: 10px;  
+}
